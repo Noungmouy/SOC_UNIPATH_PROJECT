@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UniPath KH</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Syne:wght@700;800&family=DM+Sans:wght@300;400;500&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <!--Navigation bar-->
+
+    <nav class="nav-bar">
+        <div class="main-logo"> Uni<span>Path</span>KM</div>
+        <div class="nav-link">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="University.html">Universities</a></li>
+                <li><a href="About.html">About</a></li>
+                <li><a href="Contact.html" class="active">Contact</a></li>
+            </ul>
+        </div>
+        </div>
+    </nav>
+
+
+    <!-- CONTACT HERO -->
+
+    <section class="contact-hero">
+        <div class="container">
+            <h1>Get In Touch</h1>
+            <p>Have a question about a university? Want to suggest a school to add? Or just want to say hi — we're here for
+                you.</p>
+        </div>
+
+    </section>
+
+    <!-- CONTACT MAIN -->
+    <section class="contact-main">
+
+    <!--Form Message-->
+
+<div class="form-container">
+    <h1>Send Us Message</h1>
+    <p>Fill in the form below and we'll get back to you as soon as possible.</p><br>
+
+    <!-- Update the 'action' with your Formspree ID later -->
+    <form class="form" action="https://formspree.io/f/your-id-here" method="POST">
+        <label for="firstname">First Name</label><br>
+        <input type="text" name="firstname" id="firstname" placeholder="e.g. Sotheary" required><br>
+        <br>
+
+        <label for="lastname">Last Name</label><br>
+        <input type="text" name="lastname" id="lastname" placeholder="e.g. Rith" required><br>
+        <br>
+
+        <label for="email">Email</label><br>
+        <!-- Changed type to "email" for better validation -->
+        <input type="email" name="email" id="email" placeholder="e.g. rithsotheary@gmail.com" required><br>
+        <br>
+
+        <label for="message">Message</label><br>
+        <!-- Changed to textarea so users can write longer messages -->
+        <textarea name="message" id="message" placeholder="Write your message here..." rows="4" style="width: 100%;"
+            required></textarea><br>
+        <br>
+
+        <input id="submit" type="submit" value="Send Message &#8594;">
+    </form>
+</div>
+
+       
+<!-- ADDRESS AND EMAIL -->
+<div class="address-email">
+    <div class="location">
+        <p>📍 Our Location: Phnom Penh, Cambodia</p>
+    </div>
+    <div class="email">
+        <p>📧 Email Us: <a href="mailto:unipath@gmail.com">unipath@gmail.com</a></p>
+    </div>
+</div>
+
+<!-- SOCIAL MEDIA -->
+<div class="social-connection">
+    <h4>FOLLOW US ON</h4>
+    <div class="social-links">
+        <a href="https://www.facebook.com/share/19mcDoA1mV/?mibextid=wwXIfr">Facebook</a>
+        <a href="https://t.me/noung_mouy">Telegram</a>
+    </div>
+</div>
+        
+
+
+        <!--Footer-->
+
+        <footer>
+            <div class="footer">
+                <div class="footer-caption">
+                    <div class="main-logo">Uni<span>Path</span>KM</div> <br>
+                    <p>Helping Cambodia graduates find their future, <br>one university at a time.</p>
+                </div>
+                <div class="contact"> 
+                    <h4>CONTACT</h4><br>
+                    <p>Email: unipath@gmail.com</p>
+                    <p>Location: Phnom Penh</p>
+                </div>
+            </div>
+            <p class="copywrited"> &#169;2026 Unipath KM.</p>
+        </footer>
+        
+</body>
+
+</html>
